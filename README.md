@@ -1,65 +1,98 @@
-🚀 CodexPathfinder
---------------------
+🛒 Online Shopping Cart
+--------------------------
 
-CodexPathfinder is a student career guidance platform designed to help students identify their strengths, explore potential career paths, and make informed decisions about their future. 🎯📚
+Online Shopping Cart is a Python-based console application that simulates a complete shopping experience. Users can browse products, add them to their cart, update quantities, remove items, and checkout with tax calculations. It supports both physical and digital products.
 
 
 🌟 Features
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------
 
-🧩 Personalized Career Assessment: Evaluate students’ skills, interests, and aptitudes to suggest suitable career options.
+📦 Physical Products: Includes stock management and weight information.
 
-💼 Career Path Recommendations: Explore multiple career paths based on assessment results and preferences.
+💻 Digital Products: Includes download links for software, e-books, music, and online courses.
 
-📖 Educational Resources: Access recommended courses, certifications, and learning materials.
+🛍️ Cart Management: Add, remove, or update product quantities in the shopping cart.
 
-🎯 Goal Planning: Create actionable short-term and long-term career goals.
+💰 Pricing & Tax: Calculates subtotal, tax (8%), and grand total automatically.
 
-🤝 Interactive Guidance: Receive tips, insights, and mentorship suggestions for career development.
+🔍 Product Search: Search products by name keyword.
+
+🧹 Cart Maintenance: Empty cart and restore product stock.
+
+🧾 Checkout Summary: View detailed receipt with totals and tax.
 
 
 🛠️ Technology Stack
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------
 
-Frontend: HTML, CSS, JavaScript, React
+Language: Python 3.x
 
-Backend: Node.js / Python / Java
+Modules Used: Built-in Python modules (no external dependencies)
 
-Database: MySQL / MongoDB / PostgreSQL
+OOP Concepts:
 
-Other Tools: APIs for educational resources, charts for visualizing assessments, authentication modules
+Classes & Inheritance (Product, PhysicalProduct, DigitalProduct)
+
+Encapsulation & Properties
+
+Polymorphism (custom display_details for each product type)
+
+📦 Product Types
+------------------------------------
+
+Physical Products – Examples: Laptop, Smartphone, Monitor, Keyboard, Headphones
+
+Digital Products – Examples: Antivirus Software, Photo Editor, Music Album, E-book, Online Course
 
 
-🎮 Usage
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📝 Console Menu Options
+------------------------------------------
 
-Sign Up / Login 📝: Create a student profile.
+View All Products 📦
 
-Take Career Assessment ✅: Complete the questionnaire to evaluate skills and interests.
+Search Product by Name 🔍
 
-Explore Career Paths 🔍: Check out recommended careers and required skills.
+Add to Cart ➕
 
-Plan Goals 🗓️: Set short-term and long-term goals.
+View Cart 🛒
 
-Access Resources 📚: Follow suggested courses and learning materials.
+Update Quantity 🔁
+
+Remove Item 🗑️
+
+Empty Cart 🧹
+
+Checkout 🧾
+
+Exit 👋
+
+
+🔧 Project Structure
+-------------------------------
+shopping_cart.py       # Main program and console interface
+Product.py             # Base Product class
+PhysicalProduct.py     # Subclass for physical products
+DigitalProduct.py      # Subclass for digital products
+CartItem.py            # Class to store cart items
+ShoppingCart.py        # Cart management, checkout, and catalog
 
 
 🌱 Future Enhancements
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------
 
-🤖 AI-powered career recommendation engine
+GUI version using Tkinter or PyQt
 
-🎓 Integration with online course platforms (Coursera, Udemy, etc.)
+Integration with online payment gateways
 
-🕹️ Gamification elements for student engagement
+Persistent storage with a database
 
-💬 Real-time mentorship and chat support
+Discount coupons and promotions
 
-📱 Mobile app version
+Product reviews and ratings
 
 
 📬 Contact
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------
 
 [Keshav Krishan](https://github.com/Keshav-Krishan)
 📧 Email: keshavkrishan1974@gmail.com
