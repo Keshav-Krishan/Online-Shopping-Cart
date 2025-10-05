@@ -5,7 +5,6 @@ CodexPathfinder is a student career guidance platform designed to help students 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🌟 Features
---------------
 
 🧩 Personalized Career Assessment: Evaluate students’ skills, interests, and aptitudes to suggest suitable career options.
 
@@ -20,7 +19,7 @@ CodexPathfinder is a student career guidance platform designed to help students 
 
 
 🛠️ Technology Stack
-----------------------
+
 
 Frontend: HTML, CSS, JavaScript, React
 
@@ -33,7 +32,7 @@ Other Tools: APIs for educational resources, charts for visualizing assessments,
 
 
 🎮 Usage
-----------
+
 
 Sign Up / Login 📝: Create a student profile.
 
@@ -47,7 +46,7 @@ Access Resources 📚: Follow suggested courses and learning materials.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🌱 Future Enhancements
-------------------------
+
 
 🤖 AI-powered career recommendation engine
 
@@ -63,9 +62,10 @@ Access Resources 📚: Follow suggested courses and learning materials.
 
 This project is licensed under the MIT License – see the LICENSE
  file for details.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 📬 Contact
-------------
 
-[Keshav Krishan] (https://github.com/Keshav-Krishan)
+[Keshav Krishan](https://github.com/Keshav-Krishan)
 📧 Email: keshavkrishan1974@gmail.com
